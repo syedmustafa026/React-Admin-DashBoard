@@ -64,7 +64,7 @@ const SignInPage = () => {
   // }
 
 
-
+console.log("Email:mustafa12@gmail.com Password:mustafa")
   return (
     <div>
       <div className='logincontainer'>
@@ -83,7 +83,7 @@ const SignInPage = () => {
               rules={[
                 {
                   required: true,
-                  message: 'Please input your Username!',
+                  message: 'Please input your Username!(Open Console)',
                 },
               ]}
             >
@@ -111,7 +111,7 @@ const SignInPage = () => {
               </Form.Item><br />
 
               <a className="login-form-forgot" href="">
-                Forgot password
+                Forgot password(Console)
               </a>
             </Form.Item>
 

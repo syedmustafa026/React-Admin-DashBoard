@@ -137,7 +137,7 @@ const HomeStart = () => {
     <div className="main">
       <div className="top-bar">
         <img src={Image} alt="Friend Logo" className="logo" />
-        <Button  className="profilebtn">Logout</Button>
+        <Button onClick={()=> navigate("/")}  className="profilebtn">Logout</Button>
       </div>
     
 <VerticalTabs />

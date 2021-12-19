@@ -30,7 +30,9 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 }));
 
 function createData(name, fname, members, salary) {
-    return { name, fname, members, salary };
+    return { 
+        name, fname, members, salary 
+    };
 }
 
 const rows = [
